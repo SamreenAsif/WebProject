@@ -1,0 +1,25 @@
+.CardContainer {
+  position: absolute;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  padding: 4.4rem;
+  display: flex;
+  flex-direction: column;
+  background: rgb(1 251 163 / 10%);
+  width: 40vw;
+}
+.TitleContainer {
+  min-width: initial;
+  font-family: var(--suisse-works-alternative);
+  font-weight: 800;
+  font-size: 3.8rem;
+  margin: 0 0 0.8rem;
+}
+
+.TextContainer {
+  min-width: initial;
+  font-size: 2.1rem;
+  margin: 0;
+  line-height: 3rem;
+  color: var(--color-black);
+  letter-spacing: 0.5px;
+}

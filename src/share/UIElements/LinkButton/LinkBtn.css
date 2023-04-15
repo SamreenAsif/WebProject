@@ -1,0 +1,22 @@
+.LinkButtonContainer {
+  background-color: var(--background-color);
+  color: var(--color);
+  height: var(--height);
+  width: var(--width);
+  text-decoration: none;
+  position: relative;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  padding: 0rem 1.2rem;
+  border: 1px solid var(--color-black);
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: var(--font-size);
+}
+
+.LinkButtonContainer:hover {
+  background-color: var(--hover-background-color);
+}
+
